@@ -1,0 +1,5 @@
+Class.forName("org.sqlite.JDBC");
+Connection c = DriverManager.getConnection("jdbc:sqlite:test.db");
+
+Class.forName("org.postgresql.Driver");
+Connection c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/test", "postgres", "admin");
